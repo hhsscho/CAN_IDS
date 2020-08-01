@@ -1,11 +1,11 @@
-##branch test by hscho
-
 from matplotlib import pyplot as plt
 import numpy as np
 import matplotlib
 
-matplotlib.style.use('ggplot')
+#matplotlib.style.use('ggplot')
+#path = "D:\\Idle_4243.asc"
 path = "D:\\Idle_4243.asc"
+
 
 # CAN ID : 45개 (0 ~ 44), 단위 : ms
 CAN_ID = [['42 ', 1000], ['43 ', 1000], ['44 ', 1000]]
